@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>hi lol</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="experience" aria-live="polite">
+    <section class="intro-screen" id="introScreen" role="button" tabindex="0" aria-label="Continue to the question">
+      <div class="intro-copy">
+        <p class="intro-main">hi lol...</p>
+        <p class="intro-sub">so umm i have something to ask you</p>
+        <p class="intro-hint">tap anywhere :)</p>
+      </div>
+    </section>
+
+    <section class="proposal awaiting-intro" id="proposal">
+      <h1 id="questionText">Can I be your limited edition boyfriend?</h1>
+      <p class="subtitle" id="subtitleText">terms and conditions apply tho</p>
+      <div class="actions">
+        <button class="yes-button" id="yesButton" type="button">YOOOO YES OFC I WILL<span aria-hidden="true">❤️</span></button>
+        <button class="no-button" id="noButton" type="button">EW NO GTFO</button>
+      </div>
+    </section>
+
+    <section class="build-stage" id="buildStage" aria-hidden="true">
+      <div class="tabletop" aria-hidden="true"></div>
+      <p class="yes-note" id="yesNote">this took a while to make, hope u like it, such a pain to get that heart animation working</p>
+      <svg id="heartSvg" class="heart-svg" role="img" aria-label="A LEGO heart being built"></svg>
+      <div class="particle-layer" id="particleLayer" aria-hidden="true"></div>
+      <h2 class="final-message" id="finalMessage">YAYYY WOOHOOO ❤️</h2>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
