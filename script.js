@@ -7,7 +7,7 @@ const CONFIG = {
   yesNote: "this took a while to make, hope u like it, such a pain to get that heart animation working",
   brickUnit: 18,
   heartScale: 1,
-  animationSpeed: 1,
+  animationSpeed: 1.1,
   colors: ["#ff6f91", "#f44e7b", "#ec386a", "#ff8aa6", "#d82d5b", "#ff9bb2"]
 };
 
