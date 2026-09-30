@@ -1,6 +1,6 @@
 const CONFIG = {
   question: "Can I be your boyfriend?",
-  subtitle: "im gonna treat you like a queen btw",
+  subtitle: "im gonna treat you like a queen fyi",
   yesText: "YOOOO YES OFC I WILL❤️",
   noTexts: ["EW NO GTFO", "waittttt say wallahi", "i didnt expect this so this button js never works"],
   finalText: "YAYYY WOOHOOO ❤️",
